@@ -1,0 +1,74 @@
+#super {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 450px;
+  overflow: hidden; }
+  #super .slider {
+    width: 100%;
+    height: 100%;
+    background: url(../images/slider/01.png) right no-repeat;
+    background-size: cover; }
+  #super .text {
+    position: absolute;
+    z-index: 10;
+    margin-top: 0;
+    left: 184px; }
+    #super .text p {
+      font-size: 22px;
+      color: #FFF;
+      margin: -16px 0 40px 280px; }
+    #super .text .button {
+      color: #FFF; }
+
+#supermenu {
+  width: 100%;
+  overflow: hidden;
+  margin-top: -2px;
+  padding-bottom: 1px; }
+  #supermenu h2 {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 30px;
+    line-height: 40px; }
+  #supermenu a {
+    color: #000; }
+  #supermenu li {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    padding: 80px 0;
+    background: #FFF;
+    outline: 1px solid #E6E6E6;
+    color: #303DDB;
+    font-size: 18px; }
+    #supermenu li.first {
+      color: #00CE24; }
+      #supermenu li.first:hover {
+        background: url(../images/producto/hover_gafas.png) center no-repeat;
+        background-size: cover; }
+    #supermenu li.second:hover {
+      background: url(../images/producto/hover_lentes.png) center no-repeat;
+      background-size: cover; }
+    #supermenu li .cover {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0; }
+    #supermenu li:hover .cover {
+      display: block; }
+
+.showmore {
+  padding: 28px 0;
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px; }
+  .showmore:hover {
+    background: rgba(0, 0, 0, 0.8); }
+
+/*# sourceMappingURL=home.css.map */

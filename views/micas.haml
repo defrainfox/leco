@@ -1,0 +1,196 @@
+= partial("includes/header")
+
+%body
+	= partial("includes/menu_micas")
+	= partial("includes/asesor")
+	#content
+		.banner.gray#superbanner
+			.supercenter
+				.text
+					%h3.light 
+						RE-ESTRENA LENTES
+						%br
+						EN 24 HORAS
+					%p Tu armazón favorito, la graduación exacta.
+					%p 
+						Vamos por tu armazón y en menos de 24 horas
+						%br
+						te lo devolvemos con micas nuevas.
+				.cover.micas
+		#graduaciones
+			.graduacion
+				%img{:src=>'images/micas/01.png'}
+				%h2.light GRADUACIONES HASTA 2.5
+				%p Policarbonato + antireflejante
+				.prescripcion
+					%h2 GRADUACIÓN
+					.select
+						%p Ojo derecho
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Esfera
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Cilindro
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Eje
+					.select
+						%p Ojo izquierdo
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Esfera
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Cilindro
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Eje
+				.price.bold $690
+				%a.button.blue{:href=>'/checkout'} COMPRAR
+			.graduacionline
+			.graduacion
+				%img{:src=>'images/micas/02.png'}
+				%h2.light GRADUACIONES ALTAS
+				%p Highindex + antireflejante
+				.prescripcion
+					%h2 GRADUACIÓN
+					.select
+						%p Ojo derecho
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Esfera
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Cilindro
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Eje
+					.select
+						%p Ojo izquierdo
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Esfera
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Cilindro
+						.field
+							%select
+								%option -0.05
+								%option -0.06
+								%option -0.07
+								%option -0.08
+							%span Eje
+				.price.bold $690
+				%a.button.blue{:href=>'/checkout'} COMPRAR
+		.section
+			.title
+				%p ¿CÓMO LO HACEMOS?
+				.line
+			%ul
+				%li
+					%span 01.
+					.image
+						%img{:src=>'images/icons/02.png'}
+					%p 
+						Pasamos por tu 
+						%br
+						armazón a donde 
+						%br
+						nos digas de 9 a 11
+						%br
+						am.
+				%li
+					%span 02.
+					.image
+						%img{:src=>'images/icons/03.png'}
+					%p 
+						Desde el transporte
+						%br
+						hasta el laboratorio,
+						%br
+						lo cuidamos con
+						%br
+						nuestra vida.
+				%li
+					%span 03.
+					.image
+						%img{:src=>'images/icons/04.png'}
+					%p 
+						Colocamos las nuevas
+						%br
+						micas con tu
+						%br
+						graduación exacta.
+				%li
+					%span 04.
+					.image
+						%img{:src=>'images/icons/05.png'}
+					%p 
+						Al día siguiente,
+						%br
+						devolvemos tus
+						%br
+						lentes hasta tu
+						%br
+						puerta, listos para
+						%br
+						que los re-estrenes.
+
+		.banner.blue
+			.supercenter
+				.text
+					%h3.light EXAMEN A DOMICILIO
+					%p ¿Conoces tu graduación exacta? 
+					%p Dinos cuándo y dónde e iremos hasta ti para
+					%p hacerte un examen de la vista.
+					%a.button.black{:href=>'/examen'} AGENDA TU EXAMEN
+				.cover.doctor
+
+		= partial("includes/footer")
+
+

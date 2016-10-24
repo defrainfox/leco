@@ -1,0 +1,131 @@
+= partial("includes/header")
+
+%body.examen_view
+	= partial("includes/menu_examen")
+	= partial("includes/asesor")
+	#content
+		.section
+			.text.inline
+				%h2.light
+					¿CUÁNDO FUE TU
+					%br
+					ÚLTIMO EXAMEN?
+				%p 
+					Si tienes dudas sobre tu graduación, sientes que
+					%br
+					ves bien o ha pasado más de 1 año desde tu 
+					%br
+					último examen, es probable que necesites poner
+					%br
+					a prueba tu vista. 
+
+				%p 
+					Agenda tu examen a domicilio y estrena lentes 
+					%br
+					en 24 horas.
+				.price_examen
+					EXAMEN PROFESIONAL DE LA VISTA A DOMICILIO
+					.line
+					.price.bold
+						$300
+			.image_vr.right
+		
+		.section#examen_desc
+			.image_doctor
+			.text.right.inline
+				%h2.light
+					RESULTADOS
+					%br
+					EXACTOS
+				%p
+					Nuestro examen consta de 2 pasos:
+					%br
+					tabla de Snellen y diagnóstico de
+					%br
+					refracción con tecnología VR.
+					%br
+					Así medimos con precisión:
+				.featured
+					%p Miopía
+				.featured
+					%p Hipermetropía
+				.featured
+					%p Astigmatismo
+				.featured
+					%p Presbicia
+				.featured
+					%p Distancia pupilar
+		#brigadas
+			.brigada
+				%img{:src=>'images/brigadas/01.png'}
+				%h2.light EXAMENES A DOMICILIO
+				%p 
+					Elige una fecha y ahora para que te
+					%br
+					visitemos en tu casa u oficina.
+					%br
+					El examen dura 30 minutos.
+				%a.button.blue{:href=>'/agendar'} AGENDA TU EXAMEN
+			.brigadaline
+			.brigada
+				%img{:src=>'images/brigadas/02.png'}
+				%h2.light BRIGADAS
+				%p
+					Haz equipo y agenda tu examen
+					%br
+					gratuito para grupos en tu
+					%br
+					escuela u oficina.
+				%a.button.blue{:href=>'/brigada'} AGENDA UNA BRIGADA
+		.section.ask
+			.title
+				%p ¿CÓMO LO HACEMOS?
+				.line
+			%ul
+				%li
+					%span 01.
+					.image
+						%img{:src=>'images/icons/01.png'}
+					%p 
+						Agenda tu cita con
+						%br
+						un asesor.
+				%li
+					%span 02.
+					.image
+						%img{:src=>'images/icons/02.png'}
+					%p 
+						Te hacemos un
+						%br
+						examen profesional
+						%br
+						en menos de 30
+						%br
+						minutos.
+				%li
+					%span 03.
+					.image
+						%img{:src=>'images/icons/03.png'}
+					%p 
+						Te entregramos tus
+						%br
+						resultados de
+						%br
+						inmediato.
+				%li
+					%span 04.
+					.image
+						%img{:src=>'images/icons/04.png'}
+					%p 
+						Compra tus gafas,
+						%br
+						micas o lentes de
+						%br
+						contacto y estrénalos
+						%br
+						en 24 horas.
+			%h2 *Pregunta a tu asesor por nuestras áreas de cobertura.
+
+		= partial("includes/footer")
+
+

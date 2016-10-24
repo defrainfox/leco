@@ -1,0 +1,83 @@
+#examen_desc .text p {
+  font-size: 15px; }
+
+.examen_view .section {
+  background: #F8FCFE; }
+  .examen_view .section .text .price_examen {
+    text-align: left;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #4A4A4A; }
+    .examen_view .section .text .price_examen .line {
+      width: 78%;
+      height: 1px;
+      margin-top: 6px;
+      background: #EDF4F4; }
+    .examen_view .section .text .price_examen .price {
+      font-size: 40px;
+      margin-bottom: 30px;
+      margin-left: 82px; }
+    .examen_view .section .text .price_examen span {
+      opacity: 0.4; }
+  .examen_view .section .text.right {
+    margin-top: 60px; }
+    .examen_view .section .text.right .featured {
+      overflow: hidden;
+      margin-bottom: 0px;
+      border-bottom: 1px solid #EDF4F4; }
+      .examen_view .section .text.right .featured .icon {
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin: 0 20px 0 10px; }
+        .examen_view .section .text.right .featured .icon.tabla {
+          background: url(../images/icons/06.png) center no-repeat; }
+        .examen_view .section .text.right .featured .icon.tech {
+          background: url(../images/icons/07.png) center no-repeat; }
+      .examen_view .section .text.right .featured p {
+        font-size: 17px;
+        margin: 12px 0 8px; }
+  .examen_view .section img {
+    width: 50%; }
+  .examen_view .section ul li {
+    margin: 0 30px; }
+.examen_view .ask h2 {
+  font-size: 13px;
+  margin: 80px 0 0; }
+.examen_view #brigadas {
+  position: relative;
+  text-align: center;
+  padding: 80px 0 40px; }
+  .examen_view #brigadas .brigada {
+    display: inline-block;
+    width: 500px;
+    padding-bottom: 40px; }
+    .examen_view #brigadas .brigada img {
+      margin-bottom: 40px; }
+    .examen_view #brigadas .brigada h2 {
+      font-size: 16px;
+      margin-bottom: 20px; }
+    .examen_view #brigadas .brigada p {
+      font-size: 16px;
+      font-weight: 200;
+      line-height: 24px;
+      margin-bottom: 30px; }
+    .examen_view #brigadas .brigada .price {
+      font-size: 40px;
+      padding: 20px; }
+    .examen_view #brigadas .brigada .button {
+      display: block;
+      margin: 0 auto; }
+    .examen_view #brigadas .brigada:nth-child(1) {
+      margin-right: 40px; }
+    .examen_view #brigadas .brigada:nth-child(2) {
+      margin-left: 40px; }
+  .examen_view #brigadas .brigadaline {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #EDF4F4; }
+
+/*# sourceMappingURL=examen.css.map */

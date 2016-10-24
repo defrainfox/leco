@@ -1,0 +1,241 @@
+#checkout .title {
+  padding-top: 40px; }
+#checkout .section.gray {
+  background: #F6F5F5; }
+  #checkout .section.gray .subtitle {
+    text-align: left;
+    margin: 0 0 40px 40px;
+    opacity: 0.5; }
+    #checkout .section.gray .subtitle h2 {
+      font-weight: 600;
+      margin-bottom: 6px;
+      font-size: 18px; }
+    #checkout .section.gray .subtitle p {
+      font-weight: 200; }
+  #checkout .section.gray .products {
+    float: left;
+    width: 740px;
+    height: 100%;
+    margin-right: 20px; }
+    #checkout .section.gray .products .box {
+      background: #FFF;
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+      border-bottom: 1px solid #E5E4E3;
+      border-left: 1px solid #E5E4E3;
+      border-right: 1px solid #E5E4E3; }
+      #checkout .section.gray .products .box:nth-child(1) {
+        border-top: 1px solid #E5E4E3; }
+      #checkout .section.gray .products .box .minibox {
+        padding: 40px 0;
+        float: left;
+        width: 300px;
+        height: 100%;
+        font-size: 14px;
+        font-weight: 500;
+        overflow: hidden; }
+      #checkout .section.gray .products .box .separator {
+        float: left;
+        width: 1px;
+        height: 266px;
+        margin-top: 16px;
+        background: #EDEDED; }
+      #checkout .section.gray .products .box .boxproduct h2 {
+        margin-bottom: 20px;
+        line-height: 18px; }
+      #checkout .section.gray .products .box .boxproduct img {
+        display: block;
+        width: 160px;
+        margin: 0 auto; }
+      #checkout .section.gray .products .box .boxgraduacion {
+        text-align: left; }
+        #checkout .section.gray .products .box .boxgraduacion h3 {
+          margin-left: 20px;
+          font-size: 15px;
+          font-weight: 200;
+          opacity: 0.5;
+          letter-spacing: 1px; }
+        #checkout .section.gray .products .box .boxgraduacion .graduation {
+          float: left;
+          margin: 20px 20px 40px 20px;
+          text-align: center; }
+          #checkout .section.gray .products .box .boxgraduacion .graduation p {
+            font-size: 20px;
+            font-weight: 500;
+            opacity: 0.4; }
+          #checkout .section.gray .products .box .boxgraduacion .graduation .line {
+            margin: 10px auto 4px;
+            width: 40px;
+            height: 1px;
+            background: #EDEDED; }
+          #checkout .section.gray .products .box .boxgraduacion .graduation span {
+            font-size: 11px;
+            opacity: 0.5; }
+      #checkout .section.gray .products .box .boxprice {
+        width: 133px;
+        height: 210px;
+        background: #FAFAFA;
+        margin: 6px 0; }
+        #checkout .section.gray .products .box .boxprice p {
+          margin-top: 90px;
+          font-size: 25px;
+          opacity: 0.4; }
+    #checkout .section.gray .products #almost {
+      padding: 40px 0 0;
+      text-align: center; }
+      #checkout .section.gray .products #almost p {
+        text-align: left; }
+      #checkout .section.gray .products #almost .almost {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        width: 170px;
+        height: 290px;
+        background: #FFF;
+        border: 1px solid transparent;
+        margin: 40px 4px;
+        cursor: pointer; }
+        #checkout .section.gray .products #almost .almost:hover {
+          border: 1px solid #CCC; }
+        #checkout .section.gray .products #almost .almost.active {
+          border: 1px solid #6D6E71; }
+        #checkout .section.gray .products #almost .almost .line {
+          width: 80%;
+          height: 1px;
+          background: #EDEDED;
+          margin: 0 auto 10px; }
+        #checkout .section.gray .products #almost .almost img {
+          display: block;
+          width: 80%;
+          margin: 10px auto; }
+        #checkout .section.gray .products #almost .almost h2 {
+          font-size: 16px;
+          padding: 0 20px;
+          height: 32px;
+          overflow: hidden; }
+        #checkout .section.gray .products #almost .almost .price {
+          padding: 20px;
+          background: #F7F7F7;
+          margin: 20px 0;
+          opacity: 0.5;
+          text-align: center;
+          font-size: 25px; }
+        #checkout .section.gray .products #almost .almost .check {
+          text-align: center;
+          font-size: 12px; }
+          #checkout .section.gray .products #almost .almost .check * {
+            display: inline-block;
+            vertical-align: middle; }
+          #checkout .section.gray .products #almost .almost .check .icon {
+            width: 24px;
+            height: 24px;
+            background: url(../images/pago/uncheck.png) center no-repeat; }
+        #checkout .section.gray .products #almost .almost.active .icon {
+          background: url(../images/pago/check.png) center no-repeat; }
+    #checkout .section.gray .products .alert {
+      text-align: left;
+      margin: 40px;
+      font-size: 16px;
+      line-height: 22px; }
+      #checkout .section.gray .products .alert h3 {
+        font-weight: 500;
+        margin-bottom: 10px; }
+      #checkout .section.gray .products .alert p {
+        font-weight: 200; }
+  #checkout .section.gray .ticket {
+    float: left;
+    width: 400px;
+    height: 100%;
+    outline: 1px solid #E5E4E3;
+    background: #FFF; }
+    #checkout .section.gray .ticket .total {
+      width: 388px;
+      height: 108px;
+      margin: 6px auto 0;
+      background: #F7F7F7;
+      padding-top: 40px; }
+      #checkout .section.gray .ticket .total * {
+        display: inline-block;
+        vertical-align: middle; }
+      #checkout .section.gray .ticket .total p {
+        font-size: 18px; }
+        #checkout .section.gray .ticket .total p span {
+          font-size: 26px;
+          margin: 0 20px; }
+      #checkout .section.gray .ticket .total .button {
+        width: 130px; }
+      #checkout .section.gray .ticket .total .envio {
+        display: block;
+        text-align: left;
+        margin: 16px;
+        font-size: 14px;
+        opacity: 0.5; }
+    #checkout .section.gray .ticket .forma_pago {
+      text-align: left; }
+      #checkout .section.gray .ticket .forma_pago h2 {
+        font-size: 14px;
+        padding: 25px 0;
+        opacity: 0.5;
+        margin-left: 22px; }
+      #checkout .section.gray .ticket .forma_pago .tabs {
+        overflow: hidden; }
+        #checkout .section.gray .ticket .forma_pago .tabs .tab {
+          float: left;
+          width: 199px;
+          height: 60px;
+          cursor: pointer;
+          border-top: 1px solid transparet;
+          text-align: center; }
+          #checkout .section.gray .ticket .forma_pago .tabs .tab img {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 20px; }
+            #checkout .section.gray .ticket .forma_pago .tabs .tab img:nth-child(2) {
+              margin: 10px 10px 0; }
+          #checkout .section.gray .ticket .forma_pago .tabs .tab.border-bottom {
+            background: #FAFAFA;
+            border-bottom: 1px solid #E5E4E3; }
+        #checkout .section.gray .ticket .forma_pago .tabs .tc {
+          border-right: 1px solid transparet; }
+          #checkout .section.gray .ticket .forma_pago .tabs .tc.active {
+            border-top: 1px solid #E5E4E3;
+            border-right: 1px solid #E5E4E3; }
+        #checkout .section.gray .ticket .forma_pago .tabs .paypal {
+          border-top: 1px solid transparet;
+          border-left: 1px solid transparet; }
+          #checkout .section.gray .ticket .forma_pago .tabs .paypal.active {
+            border-top: 1px solid #E5E4E3;
+            border-left: 1px solid #E5E4E3; }
+      #checkout .section.gray .ticket .forma_pago #tabscontent {
+        padding: 0 40px;
+        overflow: hidden; }
+        #checkout .section.gray .ticket .forma_pago #tabscontent #tc {
+          display: block; }
+        #checkout .section.gray .ticket .forma_pago #tabscontent .tabcontent {
+          padding: 40px 0; }
+          #checkout .section.gray .ticket .forma_pago #tabscontent .tabcontent .field, #checkout .section.gray .ticket .forma_pago #tabscontent .tabcontent .minifield {
+            margin-bottom: 20px; }
+            #checkout .section.gray .ticket .forma_pago #tabscontent .tabcontent .field p, #checkout .section.gray .ticket .forma_pago #tabscontent .tabcontent .minifield p {
+              font-size: 14px;
+              opacity: 0.5;
+              margin-bottom: 10px; }
+            #checkout .section.gray .ticket .forma_pago #tabscontent .tabcontent .field input, #checkout .section.gray .ticket .forma_pago #tabscontent .tabcontent .minifield input {
+              width: 280px;
+              border: 1px solid #EBEBEB;
+              background: #F8F8F8;
+              font-size: 20px;
+              padding: 10px 20px;
+              font-family: "Dosis", sans-serif;
+              font-weight: 400;
+              border-radius: 6px;
+              color: #494949; }
+          #checkout .section.gray .ticket .forma_pago #tabscontent .tabcontent .minifield {
+            float: left;
+            width: 150px; }
+            #checkout .section.gray .ticket .forma_pago #tabscontent .tabcontent .minifield.first {
+              margin-right: 20px; }
+            #checkout .section.gray .ticket .forma_pago #tabscontent .tabcontent .minifield input {
+              width: 110px; }
+
+/*# sourceMappingURL=checkout.css.map */

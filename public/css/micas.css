@@ -1,0 +1,179 @@
+.section {
+  background: #FFFBFB;
+  padding-bottom: 60px;
+  overflow: hidden;
+  text-align: center; }
+  .section .title {
+    width: 100%;
+    overflow: hidden;
+    padding: 80px 0 40px 40px;
+    letter-spacing: 1px; }
+    .section .title p {
+      float: left;
+      font-size: 14px;
+      font-weight: 200;
+      margin-right: 20px;
+      opacity: 0.5; }
+    .section .title .line {
+      overflow: hidden;
+      height: 1px;
+      background: #979797;
+      opacity: 0.1;
+      margin-top: 8px; }
+  .section .text {
+    display: block;
+    padding: 40px 100px 0;
+    text-align: left; }
+    .section .text.inline {
+      display: inline-block; }
+    .section .text h2 {
+      font-size: 35px;
+      margin: 20px 0 40px;
+      line-height: 46px; }
+    .section .text p {
+      font-size: 15px;
+      font-weight: 200;
+      margin-bottom: 20px;
+      line-height: 20px; }
+    .section .text .price {
+      text-align: left;
+      font-size: 17px;
+      margin-top: 40px; }
+      .section .text .price span {
+        display: block;
+        font-size: 40px;
+        margin: 10px 0; }
+      .section .text .price .icon {
+        display: block;
+        width: 13px;
+        height: 13px;
+        margin: 0 auto;
+        background: url(../images/down.svg) center no-repeat; }
+  .section .image {
+    position: absolute;
+    width: 300px;
+    height: 300px; }
+  .section .image_vr {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    background: url(../images/optical.png) center no-repeat;
+    background-size: 100%; }
+  .section .image_micas {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    background: url(../images/micas.png) center no-repeat;
+    background-size: 100%; }
+  .section .image_doctor {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    background: url(../images/doctor.png) center no-repeat;
+    background-size: 100%; }
+  .section ul {
+    display: block;
+    text-align: center;
+    margin-top: 40px; }
+    .section ul li {
+      display: inline-block;
+      text-align: left;
+      width: 170px;
+      vertical-align: top;
+      margin: 0 20px;
+      border-left: 1px solid rgba(151, 151, 151, 0.1); }
+      .section ul li span {
+        font-size: 35px;
+        font-family: "Berthold Akzidenz Grotesk Light Extended", serif;
+        letter-spacing: 1px; }
+      .section ul li span:nth-child(1) {
+        opacity: 0.2; }
+      .section ul li span:nth-child(2) {
+        opacity: 0.4; }
+      .section ul li span:nth-child(3) {
+        opacity: 0.6; }
+      .section ul li span:nth-child(4) {
+        opacity: 0.8; }
+      .section ul li .image {
+        position: relative;
+        width: 169px;
+        height: 100px;
+        margin: 30px auto; }
+        .section ul li .image img {
+          position: absolute;
+          bottom: 0; }
+      .section ul li p {
+        font-size: 14px;
+        font-weight: 200;
+        letter-spacing: 0.5px;
+        line-height: 18px; }
+
+#graduaciones {
+  text-align: center;
+  padding: 70px 0 30px;
+  position: relative;
+  overflow: hidden; }
+  #graduaciones .graduacionline {
+    position: absolute;
+    display: inline-block;
+    top: -70px;
+    width: 1px;
+    height: 120%;
+    background: #EDF4F4; }
+  #graduaciones .graduacion {
+    display: inline-block;
+    width: 500px;
+    margin-bottom: 40px; }
+    #graduaciones .graduacion img {
+      margin-bottom: 20px; }
+    #graduaciones .graduacion h2 {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    #graduaciones .graduacion p {
+      font-size: 16px;
+      font-weight: 200;
+      opacity: 0.5; }
+    #graduaciones .graduacion .price {
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 40px;
+      padding: 20px; }
+    #graduaciones .graduacion .button {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 auto; }
+    #graduaciones .graduacion:nth-child(1) {
+      margin-right: 40px; }
+    #graduaciones .graduacion:nth-child(2) {
+      margin-left: 40px; }
+    #graduaciones .graduacion .prescripcion {
+      margin: 60px 40px 40px;
+      width: 415px; }
+      #graduaciones .graduacion .prescripcion h2 {
+        font-size: 15px;
+        opacity: 0.5;
+        margin-bottom: 20px; }
+      #graduaciones .graduacion .prescripcion .select {
+        text-align: left; }
+        #graduaciones .graduacion .prescripcion .select * {
+          display: inline-block;
+          vertical-align: top; }
+        #graduaciones .graduacion .prescripcion .select p {
+          width: 100px;
+          font-size: 14px;
+          margin-top: 5px; }
+        #graduaciones .graduacion .prescripcion .select .field {
+          margin: 0 10px 20px; }
+          #graduaciones .graduacion .prescripcion .select .field span {
+            display: block;
+            text-align: center;
+            font-size: 11px;
+            opacity: 0.5;
+            margin-top: 10px; }
+          #graduaciones .graduacion .prescripcion .select .field select {
+            background: transparent;
+            width: 80px;
+            border: 1px solid #C9CCCB;
+            font-size: 17px; }
+
+/*# sourceMappingURL=micas.css.map */

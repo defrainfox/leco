@@ -1,0 +1,261 @@
+#checkout
+	.title
+		padding-top: 40px
+	.section.gray
+		background: #F6F5F5
+		.subtitle
+			text-align: left
+			margin: 0 0 40px 40px
+			opacity: 0.5
+			h2
+				font-weight: 600
+				margin-bottom: 6px
+				font-size: 18px
+			p
+				font-weight: 200
+		.products
+			float: left
+			width: 740px
+			height: 100%
+			margin-right: 20px
+			.box
+				background: #FFF
+				width: 100%
+				height: 300px
+				overflow: hidden
+				border-bottom: 1px solid #E5E4E3
+				border-left: 1px solid #E5E4E3
+				border-right: 1px solid #E5E4E3
+				&:nth-child(1)
+					border-top: 1px solid #E5E4E3
+				.minibox
+					padding: 40px 0
+					float: left
+					width: 300px
+					height: 100%
+					font-size: 14px
+					font-weight: 500
+					overflow: hidden
+				.separator
+					float: left
+					width: 1px
+					height: 266px
+					margin-top: 16px
+					background: #EDEDED
+				.boxproduct
+					h2
+						margin-bottom: 20px
+						line-height: 18px
+					img
+						display: block
+						width: 160px
+						margin: 0 auto
+				.boxgraduacion
+					text-align: left
+					h3
+						margin-left: 20px
+						font-size: 15px
+						font-weight: 200
+						opacity: 0.5
+						letter-spacing: 1px
+					.graduation
+						float: left
+						margin: 20px 20px 40px 20px
+						text-align: center
+						p
+							font-size: 20px
+							font-weight: 500
+							opacity: 0.4
+						.line
+							margin: 10px auto 4px
+							width: 40px
+							height: 1px
+							background: #EDEDED
+						span
+							font-size: 11px
+							opacity: 0.5
+
+				.boxprice
+					width: 133px
+					height: 210px
+					background: #FAFAFA
+					margin: 6px 0
+					p
+						margin-top: 90px
+						font-size: 25px
+						opacity: 0.4
+			#almost
+				padding: 40px 0 0
+				text-align: center
+				p
+					text-align: left
+				.almost
+					display: inline-block
+					vertical-align: top
+					text-align: left
+					width: 170px
+					height: 290px
+					background: #FFF
+					border: 1px solid transparent
+					margin: 40px 4px
+					cursor: pointer
+					&:hover
+						border: 1px solid #CCC
+					&.active
+						border: 1px solid #6D6E71
+					.line
+						width: 80%
+						height: 1px
+						background: #EDEDED
+						margin: 0 auto 10px
+					img
+						display: block
+						width: 80%
+						margin: 10px auto
+					h2
+						font-size: 16px
+						padding: 0 20px
+						height: 32px
+						overflow: hidden
+					.price
+						padding: 20px
+						background: #F7F7F7
+						margin: 20px 0
+						opacity: 0.5
+						text-align: center
+						font-size: 25px
+					.check
+						text-align: center
+						font-size: 12px
+						*
+							display: inline-block
+							vertical-align: middle
+						.icon
+							width: 24px
+							height: 24px
+							background: url(../images/pago/uncheck.png) center no-repeat
+					&.active
+						.icon
+							background: url(../images/pago/check.png) center no-repeat
+
+			.alert
+				text-align: left
+				margin: 40px
+				font-size: 16px
+				line-height: 22px
+				h3
+					font-weight: 500
+					margin-bottom: 10px
+				p
+					font-weight: 200
+
+		.ticket
+			float: left
+			width: 400px
+			height: 100%
+			outline: 1px solid #E5E4E3
+			background: #FFF
+			.total
+				width: 388px
+				height: 108px
+				margin: 6px auto 0
+				background: #F7F7F7
+				padding-top: 40px
+				*
+					display: inline-block
+					vertical-align: middle
+				p
+					font-size: 18px
+					span
+						font-size: 26px
+						margin: 0 20px
+				.button
+					width: 130px
+				.envio
+					display: block
+					text-align: left
+					margin: 16px
+					font-size: 14px
+					opacity: 0.5
+			.forma_pago
+				text-align: left
+				h2
+					font-size: 14px
+					padding: 25px 0
+					opacity: 0.5
+					margin-left: 22px
+				.tabs
+					overflow: hidden
+					.tab
+						float: left
+						width: 199px
+						height: 60px
+						cursor: pointer
+						border-top: 1px solid transparet
+						text-align: center
+						img
+							display: inline-block
+							vertical-align: top
+							margin-top: 20px
+							&:nth-child(2)
+								margin: 10px 10px 0
+
+						&.border-bottom
+							background: #FAFAFA
+							border-bottom: 1px solid #E5E4E3
+					.tc
+						border-right: 1px solid transparet
+						&.active
+							border-top: 1px solid #E5E4E3
+							border-right: 1px solid #E5E4E3
+					.paypal
+						border-top: 1px solid transparet
+						border-left: 1px solid transparet
+						&.active
+							border-top: 1px solid #E5E4E3
+							border-left: 1px solid #E5E4E3
+				#tabscontent
+					padding: 0 40px
+					overflow: hidden
+					#tc
+						display: block
+					.tabcontent
+						padding: 40px 0
+						.field, .minifield
+							margin-bottom: 20px
+							p
+								font-size: 14px
+								opacity: 0.5
+								margin-bottom: 10px
+							input
+								width: 280px
+								border: 1px solid #EBEBEB
+								background: #F8F8F8
+								font-size: 20px
+								padding: 10px 20px
+								font-family: 'Dosis', sans-serif
+								font-weight: 400
+								border-radius: 6px
+								color: #494949
+						.minifield
+							float: left
+							width: 150px
+							&.first
+								margin-right: 20px
+							input
+								width: 110px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

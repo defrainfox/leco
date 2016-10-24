@@ -1,0 +1,158 @@
+= partial("includes/header")
+
+%body#checkout
+	= partial("includes/menu_perfil")
+	= partial("includes/asesor")
+	= partial("includes/alerta")
+	#content
+		.section.gray
+			.supercenter
+				.title
+					%p TU COMPRA
+					.line
+				.subtitle
+					%h2 Confirma que tus lentes sean los correctos. 
+					%p Si tienes dudas, contacta a tu asesor
+				.products
+					.box
+						.minibox.boxproduct
+							%h2.light 
+								ACUVUE MOIST
+							%img{:src=>'images/lentes_contacto/01.png'}
+						.separator
+						.minibox.boxgraduacion
+							%h3 Graduación - Ojo Izquierdo
+							.graduation
+								%p 0.00
+								.line
+								%span Esfera
+							.graduation
+								%p -0.05
+								.line
+								%span Cilindro
+							.graduation
+								%p 0
+								.line
+								%span Eje
+							%h3 Graduación - Ojo Derecho
+							.graduation
+								%p 0.00
+								.line
+								%span Esfera
+							.graduation
+								%p -0.05
+								.line
+								%span Cilindro
+							.graduation
+								%p 0
+								.line
+								%span Eje
+						.minibox.boxprice
+							%p.bold $ 880
+					.box
+						.minibox.boxproduct
+							%h2.light 
+								ACUVUE MOIST
+							%img{:src=>'images/lentes_contacto/01.png'}
+						.separator
+						.minibox.boxgraduacion
+							%h3 Graduación - Ojo Izquierdo
+							.graduation
+								%p 0.00
+								.line
+								%span Esfera
+							.graduation
+								%p -0.05
+								.line
+								%span Cilindro
+							.graduation
+								%p 0
+								.line
+								%span Eje
+						.minibox.boxprice
+							%p.bold $ 880
+
+					#almost
+						%p Tambíen puedes elegir:
+						.almost.active
+							%img{:src=>'images/micas/02.png'}
+							.line
+							%h2 Policarbonato
+							.price.bold $0
+							.check
+								.icon.checked
+								%p INCLUIDO
+						.almost.click
+							%img{:src=>'images/micas/02.png'}
+							.line
+							%h2 Polarizadas
+							.price.bold $500
+							.check
+								.icon.checked
+								%p AGREGAR
+						.almost.click
+							%img{:src=>'images/micas/02.png'}
+							.line
+							%h2 Polarizadas con graduación 
+							.price.bold $800
+							.check
+								.icon.checked
+								%p AGREGAR
+						.almost.click
+							%img{:src=>'images/micas/02.png'}
+							.line
+							%h2 Entintadas
+							.price.bold $1500
+							.check
+								.icon.checked
+								%p AGREGAR
+
+					.alert
+						%p
+							Gracias a ti, un niño puede ver mejor. 
+							%br
+							Cada vez que compras lentes de contacto o gafas en Leco, donamos un 
+							%br
+							armazón a una niña o niño a través de la Fundación Ver Bien. 
+							%br
+							Conoce más en
+							%a{:href=>'http://leco.mx/blog/verbien'} leco.mx/blog/verbien
+
+					.alert
+						%h3 ¿Ésta es tu graduación correcta ?
+						%p 
+							Si tienes dudas, o hace mucho que no actualizas, habla con un asesor y agenda 
+							%br
+							un examen de la vista a domicilio. ¡Es gratis!
+				.ticket
+					.forma_pago
+						%h2 FORMA DE PAGO
+						.tabs
+							.tab.tc.active
+								%img{:src=>'images/pago/01.png'}
+								%img{:src=>'images/pago/02.png'}
+								%img{:src=>'images/pago/03.png'}
+							.tab.paypal.border-bottom
+								%img{:src=>'images/pago/04.png'}
+						#tabscontent
+							.tabcontent#tc
+								.field
+									%p NOMBRE EN LA TARJETA
+									%input{:type=>'text',:value=>'Mariana Luna'}
+								.field
+									%p NÚMERO DE LA TARJETA
+									%input{:type=>'text',:value=>'************ 1890'}
+								.minifield.first
+									%p VENCIMIENTO
+									%input{:type=>'text',:value=>"**/**"}
+								.minifield
+									%p CVV
+									%input{:type=>'text'}
+					.total
+						%p
+							TOTAL
+							%span.bold $ 1,236 
+						#pagar.button.blue{} PAGAR
+						.envio *ENVIO GRATIS
+							
+

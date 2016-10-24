@@ -1,0 +1,40 @@
+= partial("includes/header")
+
+%body#checkout
+	= partial("includes/menu_perfil")
+	= partial("includes/asesor")
+	= partial("includes/alerta_brigada")
+	#content.coloragenda
+		#agenda							
+			#brigadatitle.agenda
+				%h1 BRIGADA
+				%img{:src=>'images/agenda/brigada.png'}
+				%h3 1 DE CADA 2 MEXICANOS NO VE BIEN
+				%p
+					Haz equipo con mas de 15 o más amigos y un 
+					%br
+					profesional de leco los visitará para un
+					%br
+					examen de la vista gratuito
+			#brigadacontent.agenda
+				.icon
+				%h2 Ingresa tus datos y un asesor te contactará
+				%form
+					.field
+						%span NOMBRE DE TU EMPRESA O ESCUELA
+						%input{:type=>'text'}
+					.field
+						%span DIRECCIÓN
+						%input{:type=>'text'}
+					.field
+						%span TU NOMBRE
+						%input{:type=>'text'}
+					.field
+						%span TELÉFONO
+						%input{:type=>'text'}
+					#buttonbrigada.button.blue SOLICITAR BRIGADA
+					%p *Las brigadas son de lunes a viernes, entre 09:00 y 18:00 horas.
+
+
+
+

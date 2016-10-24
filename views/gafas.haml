@@ -1,0 +1,114 @@
+= partial("includes/header")
+
+%body
+	= partial("includes/menu_gafas")
+	= partial("includes/asesor")
+	#content
+		#section_title.gafas
+			%h1.light GAFAS
+			%p Usa los filtros para encontrar tu par ideal
+		#filtros_gafas.filtros_content
+			#search.open
+				.icon
+				%input
+			#filtros
+				.filtro.down{:tag=>'categoria'}
+					.line
+					%p
+						CATEGORÍA
+						%span
+				.filtro.down{:tag=>'precio'}
+					.line
+					%p
+						PRECIO
+						%span
+				.filtro.down{:tag=>'estilo'}
+					.line
+					%p
+						ESTILO
+						%span
+			#subfiltros
+				#categoria.subfiltro
+					.button_filtro Full Rim
+					.button_filtro Semi Rimless
+					.button_filtro Rimless
+					.button_filtro Gafas de sol
+				#precio.subfiltro
+					.button_filtro $ 800
+					.button_filtro $ 1200
+					.button_filtro $ 1800
+					.button_filtro $ 2200
+				#estilo.subfiltro
+					.button_filtro Redondos
+					.button_filtro Cuadrados
+					.button_filtro Rectangulares
+		.gridcontent
+			%a.grid.producto1{:href=>'/producto'}
+				.img
+				.text
+					%h2 ACCUVE OASIS
+					%p $ 618
+			%a.grid.producto1{:href=>'/producto'}
+				.img
+				.text
+					%h2 MEOW
+					%p $ 1,200
+			%a.grid.producto2{:href=>'/producto'}
+				.img
+				.text
+					%h2 EYE OF THE TIGER
+					%p $ 1,600
+			%a.grid.producto1{:href=>'/producto'}
+				.img
+				.text
+					%h2 TAINTED LOVE
+					%p $ 1,200
+			%a.grid.producto1{:href=>'/producto'}
+				.img
+				.text
+					%h2 BLACK IN BLACK
+					%p $ 900
+			%a.grid.producto2{:href=>'/producto'}
+				.img
+				.text
+					%h2 ALL SUMMER
+					%p $ 1,600
+			%a.grid.producto1{:href=>'/producto'}
+				.img
+				.text
+					%h2 CARAMEL
+					%p $ 1,200
+			%a.grid.producto1{:href=>'/producto'}
+				.img
+				.text
+					%h2 THE YOUTH
+					%p $ 1,600
+			%a.grid.producto2{:href=>'/producto'}
+				.img
+				.text
+					%h2 GOOD OLD DAYS
+					%p $ 900
+		.showmore VER MÁS
+
+		.banner.blue
+			.supercenter
+				.text
+					%h3.light EXAMEN A DOMICILIO
+					%p ¿Conoces tu graduación exacta? 
+					%p Dinos cuándo y dónde e iremos hasta ti para
+					%p hacerte un examen de la vista.
+					%a.button.black{:href=>'/examen'} AGENDA TU EXAMEN
+				.cover.doctor
+
+		.banner.gray
+			.supercenter
+				.text
+					%h3.light MISMOS LENTES, MICAS NUEVAS
+					%p Vuelve a la vida tus armazones favoritos.
+					%p Pasamos por ellos y te los devolvemos
+					%p graduados en 24 horas.
+					%a.button.black{:href=>'/micas'} VER MÁS
+				.cover.micas
+		= partial("includes/footer")
+
+

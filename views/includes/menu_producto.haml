@@ -1,0 +1,24 @@
+%ul#menu
+	%li
+		%a{:href=>'/'} 
+			%img{:src=>'images/leco.png'}
+	%li.hide
+		%a{:href=>'/gafas'} GAFAS
+	%li.hide
+		%a{:href=>'/leco'} LENTES DE CONTACTO
+	%li.hide
+		.line
+	%li.hide
+		%a{:href=>'/examen'} EXAMEN DE LA VISTA
+	%li.hide
+		%a{:href=>'/micas'} CAMBIO DE MICAS
+
+	%a.user{:href=>'/perfil'}
+		%img{:src=>'images/usuario/01.png'}
+
+	#prices.hide
+		%h1.light MEOW
+		%span
+		%p.bold $ 1200
+		.triggerlogin.button.blue COMPRAR
+		%a.button.white{:href=>'/perfil'} AÑADIR A WHISLIST

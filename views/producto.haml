@@ -1,0 +1,120 @@
+= partial("includes/header")
+
+%body
+	= partial("includes/menu_producto")
+	= partial("includes/asesor")
+	= partial("includes/login")
+	#content
+		#producto
+			%img{:src=>'images/producto/01.png'}
+			.titles
+				%h1.light MEOW
+				.line
+				%span.bold $ 1,200
+				.triggerlogin.button.blue{} COMPRAR
+				%a.button.white{:href=>'/'} AÑADIR A WHISLIST
+		.section.blur
+			.cover
+			.title
+				%p LIFESTYLE
+				.line
+			.supertext MEOW
+		#galeria
+			.content_center
+				.sidebar
+					%img{:src=>'images/galeria/02.jpg'}
+					%img{:src=>'images/galeria/03.jpg'}
+					%img{:src=>'images/galeria/04.jpg'}
+				.center
+					.cover M
+					.image
+						%img{:src=>'images/galeria/01.png'}
+						%p
+							Estilo felino avant-gard que va bien
+							%br
+							con todo tipo de caras.
+				.photo
+					%img{:src=>'images/producto/02.png'}
+				.legend
+					Meowravillosos armazones de acrílico negro con
+					%br
+					estampado de flores; varillas y puente de metal color oro.
+				.photo
+					%img{:src=>'images/producto/03.png'}
+		.section.detalles
+			.title
+				%p DETALLES
+				.line
+			.detalle
+				%h2
+					FUNCIONA MEJOR EN ESTAS CARAS
+				.cara
+					%img{:src=>'images/caras/01.png'}
+					%p Redonda
+				.cara
+					%img{:src=>'images/caras/02.png'}
+					%p Cuadrada
+				.cara
+					%img{:src=>'images/caras/03.png'}
+					%p Triangular
+			.separator
+			.detalle
+				%h2
+					MEDIDAS
+				.medida
+					%div
+						15.
+						%span cms
+					%p Ancho de lente
+				.medida
+					%div
+						3.
+						%span cms
+					%p Ancho de puente
+				.medida
+					%div
+						23.
+						%span cms
+					%p Largo de patita
+		.banner.probador
+			.supercenter
+				.text
+					%h3.light PRUÉBATE ESTE MODELO
+					%p Tómate una foto y mira cómo te verías
+					%p con tus pares favoritos.
+					%a.button.black{:href=>'#'} PROBÁRMELOS
+				.cover.probador
+
+		.section.grid
+			.title
+				%p MÁS QUE VER
+				.line
+			.gridcontent
+				%a.grid.producto3{:href=>'/lentes_contacto'}
+					.img
+					.text
+						%h2 ARMY OF ME
+						%p $900
+				%a.grid.producto1{:href=>'/producto'}
+					.img
+					.text
+						%h2 MEOW
+						%p $1,200
+				%a.grid.producto2{:href=>'/producto'}
+					.img
+					.text
+						%h2 EYE OF THE TIGER
+						%p $1,600
+		.banner.blue
+			.supercenter
+				.text
+					%h3.light EXAMEN A DOMICILIO
+					%p ¿Conoces tu graduación exacta? 
+					%p Dinos cuándo y dónde e iremos hasta ti para
+					%p hacerte un examen de la vista.
+					%a.button.black{:href=>'/examen'} AGENDA TU EXAMEN
+				.cover.doctor
+
+		= partial("includes/footer")
+
+

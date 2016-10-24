@@ -1,0 +1,877 @@
+$gray: #7E7E7E
+$boder-gray: #EDEDED
+$blue: #0568FF
+
+body
+	position: absolute
+	font-family: 'Raleway', sans-serif
+	font-weight: 400
+	width: 100%
+	height: 100%
+	min-height: 100%
+.supercenter
+	width: 1160px
+	margin: 0 auto
+#menu
+	position: fixed
+	width: 100%
+	height: 70px
+	border-bottom: 1px solid #EDE9E4
+	background: #FFF
+	overflow: hidden
+	z-index: 100
+	li
+		float: left
+		a
+			font-size: 12px
+			display: block
+			font-weight: 500
+			color: $gray
+			padding: 30px 20px 27px 14px
+			height: 100%
+			letter-spacing: 1px
+			img
+				float: left
+				margin-top: -10px
+			&:hover
+				color: $blue
+				font-weight: 700
+			&.active
+				color: $blue
+				font-weight: 700
+				background: url(../images/hover.png) center no-repeat
+
+		.line
+			width: 18px
+			height: 1px
+			background: #979797
+			opacity: 0.5
+			margin-top: 34px
+	.user
+		float: right
+		margin: 18px 20px 0
+		&:hover
+			span
+				font-weight: 700
+				color: $blue
+		span
+			display: inline-block
+			vertical-align: top
+			margin: 14px 10px 0 0
+			font-size: 12px
+			letter-spacing: 1px
+			color: $gray
+			font-weight: 500
+
+
+
+	#prices
+		float: right
+		height: 48px
+		margin: 12px 0 0 0
+		&.hide
+			display: none
+		* 
+			float: left
+		h1
+			font-size: 22px
+			font-weight: 200
+			color: #000
+			opacity: 0.5
+			margin-top: 12px
+		.button
+			margin-left: 20px
+		span
+			width: 42px
+			height: 1px
+			background: #979797
+			display: block
+			margin: 24px 20px
+		p
+			font-size: 20px
+			color: #000
+			margin-top: 13px
+			font-weight: 200
+
+#section_title
+	font-size: 50px
+	color: #00CE24
+	text-align: center
+	h1
+		padding: 100px 0 80px
+	p
+		font-size: 14px
+		padding-bottom: 20px
+	&.gafas
+		background: url(../images/lentes_contacto/bg_gafas.png) center no-repeat
+		background-size: cover
+	&.leco
+		background: url(../images/lentes_contacto/bg_leco.png) center no-repeat
+		background-size: cover
+		h1, p
+			color: #0568FF
+
+.filtros_content
+	overflow: hidden
+	#search
+		float: right
+		width: 70px
+		height: 70px
+		.icon
+			cursor: pointer
+			float: right
+			width: 70px
+			height: 70px
+			background: url(../images/search/01.png) center no-repeat
+		input
+			display: none
+			float: right
+			width: 200px
+			height: 20px
+			padding: 10px 10px 0
+			border: none
+			font-size: 20px
+			font-family: 'Raleway', sans-serif
+			color: #FFF
+			outline: none
+			border-bottom: 1px solid #FFF
+			background: transparent
+			margin-top: 16px
+	#filtros
+		overflow: hidden
+		.filtro
+			cursor: pointer
+			position: relative
+			text-align: center
+			padding: 28px 0
+			font-size: 14px
+			letter-spacing: 1.8px
+			.line
+				position: absolute
+				right: 0
+				width: 1px
+				height: 100%
+				background: #FFF
+				top: 0
+			span
+				display: inline-block
+				width: 10px
+				height: 10px
+			&.down
+				color: #FFF
+				span
+					background: url(../images/search/down.png) center no-repeat
+			&.up
+				span
+					background: url(../images/search/up.png) center no-repeat
+	#subfiltros
+		display: none
+		width: 100%
+		padding: 2px 0
+		text-align: center
+		.button_filtro
+			display: inline-block
+			width: 200px
+			border-radius: 40px
+			font-size: 13px
+			padding: 13px 0
+			margin: 18px 20px
+			cursor: pointer
+		.subfiltro
+			display: none
+
+
+#filtros_gafas
+	border-top: 1px solid #00CE24
+	#search
+		background: rgba(0,206,36,0.8)
+	#filtros
+		.filtro
+			float: left
+			width: 33.33%
+			&.down
+				background: #00CE24
+			&.up
+				background: #CCF5D3
+				color: #00CE24
+				span
+					background: url(../images/search/up_green.png) center no-repeat
+	#subfiltros
+		border-bottom: 1px solid #00CE24
+		.button_filtro
+			border: 1px solid #00CE24
+			color: #00CE24
+			&.active
+				background: #E2FAE8
+				border-color: transparent		
+
+#filtros_leco
+	border-top: 1px solid #0568FF
+	#search
+		background: rgba(5, 104, 255, 0.8)
+	#filtros
+		.filtro
+			float: left
+			width: 25%
+			&.down
+				background: #0568FF
+			&.up
+				background: rgba(5, 104, 255, 0.2)
+				color: #0568FF
+	#subfiltros
+		border-bottom: 1px solid #0568FF
+		.button_filtro
+			border: 1px solid #0568FF
+			color: #0568FF
+			&.active
+				background: rgba(5, 104, 255, 0.2)
+				border-color: transparent	
+			
+
+
+#asesor
+	float: left
+	width: 60px
+	background: #6AE2D6
+	margin-top: 71px
+	&:hover
+		background: rgba(106,226,214,0.8)
+	.sidebar
+		position: relative
+		float: right
+		width: 60px
+		height: 100%
+		cursor: pointer
+		color: #FFF
+		.superfixed
+			position: fixed
+			margin: 290px 0 0 -6px
+			.fixed
+				transform: rotate(270deg)
+				font-size: 12px
+				font-weight: 600
+				margin-left: -44px
+				p
+					letter-spacing: 1px	
+				p, .icon
+					display: inline-block
+					vertical-align: top
+				.icon
+					width: 30px
+					height: 30px
+					margin: -8px 6px 6px 6px
+					&.open
+						background: url(../images/asesor/open.png) center no-repeat
+					&.close
+						background: url(../images/asesor/close.png) center no-repeat
+			.logo
+				margin: 76px 0 0 20px
+				width: 35px
+				height: 35px
+				background: url(../images/asesor/logo.png) center no-repeat
+				background-size: cover
+	.content
+		display: none
+		float: left
+		position: fixed
+		width: 520px
+		height: 100%
+		background: #F0FCFB
+		overflow: hidden
+		.title
+			width: 100%
+			overflow: hidden
+			padding: 40px 0 40px 40px
+			p
+				float: left
+				font-size: 16px
+				font-weight: 200
+				margin-right: 20px
+			.line
+				overflow: hidden
+				height: 1px
+				background: #979797
+				opacity: 0.2
+				margin-top: 8px
+		.asesor_data
+			text-align: center
+			padding-bottom: 40px
+			*
+				display: inline-block
+				vertical-align: top
+			img
+				width: 124px
+				height: 124px
+				margin-right: 20px
+			.text
+				width: 200px
+				text-align: left
+				h2
+					font-size: 24px
+					margin: 15px 0
+				.whatsapp
+					.icon
+						width: 20px
+						height: 20px
+						margin: 0 6px 0 0
+						background: url(../images/asesor/whatsapp.png) center no-repeat
+					span
+						font-size: 16px
+						font-weight: 200
+					p
+						font-size: 20px
+						color: #3ACE01
+						margin-top: 15px
+		.superchat
+			padding: 20px
+			background: #FBFBFB
+		.chat
+			text-align: left
+			padding-bottom: 40px
+			width: 440px
+			margin: 0 auto
+			.header_chat
+				margin-bottom: 10px
+				*
+					display: inline-block
+				.icon
+					width: 15px
+					height: 15px
+					background: url(../images/asesor/chat.png) center no-repeat
+					margin-right: 10px
+				span
+					font-size: 16px
+			.box_chat
+				position: relative
+				border-radius: 6px
+				border: 1px solid #CFCFCF
+				padding: 16px 0
+				height: 268px
+				*
+					display: inline-block
+					vertical-align: bottom
+				.burble
+					width: 258px
+					padding: 14px
+					margin: 0 16px
+					border-radius: 6px
+					border: 1px solid #CFCFCF
+					background: #F9F9F9
+					font-size: 18px
+					p
+						padding: 6px 10px
+				.time
+					padding-bottom: 4px
+					font-size: 14px
+					opacity: 0.3
+				.controls
+					position: absolute
+					height: 60px
+					left: 0
+					bottom: 0
+					width: 100%
+					border-top: 1px solid #CFCFCF
+					.minibutton
+						float: right
+						display: block
+						border-radius: 40px
+						width: 94px
+						padding: 16px 0
+						font-size: 13px
+						text-align: center
+						border: 1px solid $boder-gray
+						cursor: pointer
+						margin: 6px 6px 0 0
+		.minisection
+			border-top: 1px solid #CFCFCF
+			padding: 0 0 0 20px
+			h2
+				text-align: center
+				padding: 20px 0
+				font-size: 17px
+				span
+					display: block
+					padding-bottom: 6px
+			.line
+				width: 454px
+				height: 1px
+				background: #CFCFCF
+				margin: 0 auto
+			.subtitle
+				font-size: 18px
+				text-align: center
+				font-weight: 200
+				opacity: 0.5
+				padding: 20px 0
+				line-height: 22px
+				letter-spacing: 2
+			img
+				display: block
+				width: 308px
+				margin: 0 auto 30px
+			.product
+				text-align: center
+				*
+					display: inline-block
+					vertical-align: top
+				p
+					font-size: 22px
+					font-weight: 200
+					color: #000
+					opacity: 0.5
+				span
+					width: 42px
+					height: 1px
+					background: #979797
+					margin: 12px 14px 0
+				.price
+					font-size: 20px
+		.button
+			margin: 40px auto 60px
+		.tu_graduacion
+			p
+				text-align: center
+				padding: 40px 0
+				font-size: 18px
+				font-weight: 200
+				opacity: 0.5
+				line-height: 22px
+				span
+					font-weight: 500
+		.miniwhislist
+			background: #E9EFED
+			text-align: center
+			padding-bottom: 40px
+			h2
+				margin-top: 30px
+			p
+				font-size: 18px
+				font-weight: 200
+				opacity: 0.5
+				line-height: 22px
+				padding: 40px 0
+			.photos
+				margin-bottom: 40px
+				img
+					display: inline-block
+					width: 146px
+					margin: 0 7px
+			.button
+				border: 1px solid #DFDFDF
+
+#content
+	overflow: hidden
+	min-height: 100%
+	background: #FFF
+	margin-top: 71px
+
+.gridcontent
+	width: 100%
+	overflow: hidden
+	border-bottom: 1px solid $boder-gray
+	background: #FFF
+	.moreitems
+		display: none
+	.grid
+		position: relative
+		float: left
+		width: 33.3%
+		height: 400px
+		outline: 1px solid $boder-gray
+		overflow: hidden
+		.img
+			margin: 112px auto
+			width: 344px
+			height: 164px
+		.text
+			position: absolute
+			width: 100%
+			bottom: 20px
+			left: 0
+			color: #1D1D1B
+			font-size: 14px
+			h2
+				float: left
+				margin-left: 20px
+				opacity: 0.5
+				font-family: 'Berthold Akzidenz Grotesk Light Extended', serif
+				letter-spacing: 1px
+			p
+				float: right
+				margin-right: 20px
+				opacity: 0.5
+				font-family: 'Berthold Akzidenz Grotesk Medium Extended', serif
+		&:hover
+			h2, p
+				opacity: 1
+.producto1
+	.img
+		background: url(../images/producto/spri-negro.png)
+		background-size: 100%
+	&:hover
+		.img
+			background-position: 0 -688px
+.producto2
+	.img
+		background: url(../images/producto/spri-meow.png)
+		background-size: 100%
+	&:hover
+		.img
+			background-position: 0 -688px
+.producto3
+	.img
+		background: url(../images/producto/lentes_contacto.png) center 0 no-repeat
+		background-size: 80%
+	&:hover
+		.img
+			background-position: center -164px
+
+		
+
+.button
+	display: block
+	border-radius: 40px
+	width: 180px
+	padding: 16px 0
+	font-size: 12px
+	text-align: center
+	cursor: pointer
+	letter-spacing: 1px
+	&.black
+		background: #000
+		color: #FFF
+	&.blue
+		background: #3297F7
+		color: #FFF
+	&.green
+		background: #6FCA0A
+		color: #FFF
+	&.white
+		background: #FFF
+		color: #000
+		border: 1px solid #CCC
+	&.rectangle
+		border-radius: 10px
+		background: #EDEDED !important
+		border: 1px solid #CCC !important
+		color: $blue
+
+#superbanner
+	h3
+		font-size: 35px
+		line-height: 46px
+	p
+		font-size: 15px
+		margin-bottom: 20px
+		color: #000
+		line-height: 20px
+
+.banner
+	position: relative
+	overflow: hidden
+	width: 100%
+	min-height: 400px
+	border-top: 1px solid $boder-gray
+	border-bottom: 1px solid $boder-gray
+	text-align: center
+	padding: 0 60px
+	&.blue
+		background: #F8FCFE
+	&.gray
+		background: #F9F4FB
+	&.probador
+		background: #E3F9F7
+	.text
+		position: absolute
+		width: 100%
+		height: 400px
+		margin: 0 120px 0 0
+		text-align: left
+		z-index: 2
+		h3
+			font-size: 25px
+			margin: 80px 0 40px
+			color: #4A4A4A
+		p
+			font-size: 17px
+			color: #9B9B9B
+			margin-bottom: 6px
+	.cover
+		position: absolute
+		vertical-align: top
+		width: 100%
+		height: 400px
+		top: 0
+		z-index: 1
+		&.examen
+			background: url(../images/vr.png) 730px center no-repeat
+			background-size: 500px
+		&.micas
+			background: url(../images/micas.png) 600px center no-repeat
+		&.probador
+			background: url(../images/probador.png) 600px center no-repeat
+		&.doctor
+			background: url(../images/doctor.png) 700px center no-repeat
+			background-size: 400px
+	.button
+		margin-top: 40px
+
+#wishlist
+	background: #F7F5F6
+	.title
+		width: 100%
+		overflow: hidden
+		padding: 40px 0 40px 40px
+		p
+			float: left
+			font-size: 18px
+			font-weight: 200
+			margin-right: 20px
+		.line
+			overflow: hidden
+			height: 1px
+			background: #979797
+			opacity: 0.2
+			margin-top: 8px
+#alerta
+	display: none
+	position: absolute
+	width: 100%
+	height: 100%
+	top: 0
+	z-index: 200
+	background: #FFF
+	text-align: center
+	#alerta_controls
+		width: 100%
+		height: 70px
+		border-bottom: 1px solid #DADADA
+		background: #FFF
+		#alerta_close
+			float: right
+			width: 70px
+			height: 70px
+			background: url(../images/alerta/close.png) center no-repeat
+			cursor: pointer
+	#alerta_header
+		background: url(../images/pago/bg.png) center no-repeat
+		background-size: cover
+		padding: 80px 0 60px
+		img
+			margin-bottom: 50px
+		h2
+			font-size: 30px
+			margin-bottom: 30px
+		p
+			font-size: 18px
+		.button
+			display: block
+			margin: 40px auto 0
+	#alerta_footer
+		padding: 80px 0
+		background: #F7F7F7
+		p
+			font-size: 18px
+		.asesor
+			padding: 40px 0
+			*
+				display: inline-block
+				vertical-align: top
+			img
+				width: 40px
+			h2
+				font-size: 25px
+				margin: 8px 16px 0
+			.whatsapp
+				color: #3ACE01
+				font-size: 20px
+				margin-top: 12px
+			.icon
+				width: 20px
+				height: 20px
+				background: url(../images/asesor/whatsapp.png) center no-repeat
+				margin: 14px 0 0 6px
+	&.login
+		background: #F7F7F7
+	#login
+		width: 448px
+		border-radius: 10px
+		background: #FFF
+		margin: 100px auto 0
+		border: 1px solid #EDEDED
+		padding: 40px
+		p
+			font-size: 16px
+			color: #000
+			opacity: 0.6
+			margin-bottom: 20px
+		img
+			margin-bottom: 20px
+		.field
+			margin-top: 30px
+			text-align: left
+			span
+				display: block
+				font-size: 13px
+				opacity: 0.5
+			input
+				width: 408px
+				padding: 10px 20px
+				margin-top: 6px
+				font-size: 22px
+				border-radius: 5px
+				border: 1px solid #EBEBEB
+				background: #F8F8F8
+				outline: none
+			.tip
+				font-size: 14px
+				opacity: 0.5
+				margin-top: 4px
+		#checks
+			margin-top: 30px
+			.check
+				margin-top: 20px
+				text-align: left
+				*
+					display: inline-block
+					vertical-align: middle
+				.icon
+					cursor: pointer
+					width: 20px
+					height: 20px
+					background: url(../images/login/uncheck.png) center no-repeat
+					&.active
+						background: url(../images/login/check.png) center no-repeat
+				span
+					font-size: 14px
+					opacity: 0.5
+					a
+						text-decoration: underline
+						color: #000
+		.button
+			margin: 40px auto
+		.redalert
+			font-size: 14px
+			color: #D0021B
+			opacity: 0.5
+
+
+#footer
+	background: #000
+	width: 100%
+	overflow: hidden
+	padding: 100px 0 20px
+	text-align: center
+	p
+		text-align: center
+		color: #FFF
+		opacity: 0.4
+		font-size: 13px
+	ul
+		padding-bottom: 80px
+		text-align: center
+		li
+			display: inline-block
+			vertical-align: top
+			width: 200px
+			padding: 0 80px
+			*
+				text-align: left
+				font-size: 13px
+			span
+				display: block
+				color: #FFF
+				opacity: 0.5
+				margin-bottom: 14px
+			a
+				display: block
+				color: #FFF
+				opacity: 0.5
+				margin-bottom: 12px
+				&:hover
+					opacity: 1
+			.nt
+				float: left
+				width: 20px
+				height: 20px
+				opacity: 1
+				margin: 0 10px
+				&.fb
+					background: url(../images/social/fb.svg) center no-repeat
+				&.fb
+					&:hover
+						background: url(../images/social/fb_w.svg) center no-repeat
+				&.in
+					background: url(../images/social/in.svg) center no-repeat
+					&:hover
+						background: url(../images/social/in_w.svg) center no-repeat
+
+@media all and (max-width: 767px)
+	.supercenter
+		width: 80%
+	.banner
+		.text
+			margin: 0 40px
+			h3
+				font-size: 30px
+				width: 86%
+			p
+				font-size: 16px
+	#content
+		.section 
+			.title
+				padding: 40px 20px
+			.text
+				padding: 0 40px
+				h2
+					font-size: 30px
+			.image
+				width: 250px
+				height: 250px
+			ul 
+				li 
+					width: 110px
+					margin-bottom: 40px
+					.image
+						width: 169px
+						height: 50px
+	#asesor
+		display: none
+	#super
+		height: auto !important
+	.gridcontent
+		.grid
+			width: 100%
+			height: 240px
+			.img
+				margin: 30px auto
+				width: 300px
+				height: 120px
+	.examen_view 
+		#brigadas 
+			.brigada
+				width: 100% !important
+				margin-left: 0 !important
+				img
+					width: 80%
+	#graduaciones
+		.graduacion
+			width: 100% !important
+			img
+				display: block
+				width: 80%
+				margin: 0 auto
+			&:nth-child(2)
+				margin-left: 0 !important
+			
+
+@media all and (min-width: 768px) and (max-width:1279px)
+	.gridcontent
+		.grid
+			width: 50%
+
+@media all and (min-width: 1280px)
+	.gridcontent
+		.grid
+			
+

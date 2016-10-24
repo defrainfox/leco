@@ -1,0 +1,99 @@
+.coloragenda {
+  background: #F6F6F7 !important; }
+
+#agenda {
+  width: 100%;
+  overflow: hidden;
+  background: #F6F6F7; }
+  #agenda .agenda {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 70px 0;
+    overflow: hidden; }
+  #agenda #brigadatitle h1 {
+    font-size: 30px; }
+  #agenda #brigadatitle img {
+    margin: 70px auto; }
+  #agenda #brigadatitle h3 {
+    font-size: 18px;
+    margin-bottom: 20px; }
+  #agenda #brigadatitle p {
+    font-size: 16px;
+    line-height: 22px; }
+  #agenda #brigadacontent {
+    background: #FFF; }
+    #agenda #brigadacontent .icon {
+      width: 22px;
+      height: 22px;
+      background: url(../images/agenda/icon.png) center no-repeat;
+      margin: 0 auto 70px; }
+    #agenda #brigadacontent h2 {
+      font-size: 18px;
+      opacity: 0.5; }
+    #agenda #brigadacontent form {
+      position: relative;
+      margin: 50px auto;
+      width: 500px;
+      text-align: left; }
+      #agenda #brigadacontent form .field {
+        margin-bottom: 20px; }
+        #agenda #brigadacontent form .field span {
+          font-size: 12px;
+          opacity: 0.5; }
+        #agenda #brigadacontent form .field input {
+          width: 460px;
+          border: 1px solid #EBEBEB;
+          background: #F8F8F8;
+          color: #000;
+          padding: 10px 14px;
+          font-family: "Dosis", sans-serif;
+          font-weight: 500;
+          font-size: 22px;
+          border-radius: 6px;
+          margin-top: 10px; }
+        #agenda #brigadacontent form .field .dates {
+          width: 100%;
+          text-align: center; }
+          #agenda #brigadacontent form .field .dates .date {
+            cursor: pointer;
+            display: inline-block;
+            vertical-align: top;
+            width: 70px;
+            border: 1px solid #EDEDED;
+            margin: 10px 3px;
+            font-size: 12px;
+            padding: 16px 0;
+            border-radius: 10px; }
+            #agenda #brigadacontent form .field .dates .date span {
+              display: block;
+              font-size: 30px;
+              margin: 10px 0; }
+            #agenda #brigadacontent form .field .dates .date:hover, #agenda #brigadacontent form .field .dates .date.active {
+              border: 1px solid #01B7FF;
+              color: #01B7FF !important; }
+        #agenda #brigadacontent form .field .times {
+          text-align: center; }
+          #agenda #brigadacontent form .field .times .time {
+            cursor: pointer;
+            display: inline-block;
+            vertical-align: top;
+            width: 90px;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px solid #EDEDED;
+            padding: 10px; }
+            #agenda #brigadacontent form .field .times .time span {
+              display: block; }
+            #agenda #brigadacontent form .field .times .time:hover, #agenda #brigadacontent form .field .times .time.active {
+              border: 1px solid #01B7FF;
+              color: #01B7FF !important; }
+      #agenda #brigadacontent form .button {
+        display: block;
+        margin: 40px auto 40px; }
+      #agenda #brigadacontent form p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 200; }
+
+/*# sourceMappingURL=agenda.css.map */

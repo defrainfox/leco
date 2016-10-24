@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="16px" viewBox="0 0 8 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_footer_fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="1">
+        <g id="PRODUCTO" transform="translate(-159.000000, -7101.000000)" fill="#FFFFFF">
+            <g id="Group-19" transform="translate(44.000000, 5340.000000)">
+                <g id="Group-9" transform="translate(16.000000, 1636.000000)">
+                    <path d="M104.319651,141 L104.319651,132.999063 L106.68636,132.999063 L107,130.241896 L104.319651,130.241896 L104.323672,128.861907 C104.323672,128.142796 104.396888,127.757479 105.503675,127.757479 L106.983246,127.757479 L106.983246,125 L104.616201,125 C101.773,125 100.772267,126.337523 100.772267,128.586815 L100.772267,130.242208 L99,130.242208 L99,132.999376 L100.772267,132.999376 L100.772267,141 L104.319651,141 Z" id="ic_footer_fb"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

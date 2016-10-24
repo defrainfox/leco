@@ -1,0 +1,186 @@
+= partial("includes/header")
+
+%body
+	= partial("includes/menu_perfil")
+	#perfil_header
+		%ul.supercenter
+			.superheader
+				.circle
+				%h1.light TU PERFIL
+			%li
+				.header.datos
+					.icon
+					%h2 DATOS PERSONALES
+					%p Mariana Luna López Ontiveros
+					%p +52 1 55 3029 8790
+					%p mariana@gmail.com
+			%li
+				.header.direccion
+					.icon
+					%h2 DIRECCIÓN
+					%p Nayarit 91, Depto 34, Cuauhtémox.
+					%p Colonia Roma, Ciudad de México, Mexico 
+					.button.black.noborder AÑADIR DIRECCIÓN
+			%li
+				.header.datos
+					.icon
+					%h2 DOCTORA
+					%p Angela Juarez
+					%p Lic. en Optometría
+					%p Cédula 7544050
+	#tabs
+		.tab.active{:tag=>'perfil_graduacion'}
+			.cover
+			TU GRADUACIÓN
+		.tab{:tag=>'perfil_wishlist'}
+			.cover
+			TU WHISLIST
+		.tab{:tag=>'perfil_pago'}
+			.cover
+			TU MÉTODO DE PAGO
+		.tab{:tag=>'perfil_comprados'}
+			.cover
+			PRODUCTOS COMPRADOS
+	
+	#perfil_graduacion.tabcontent.active
+		.graduacion_section.supercenter
+			.subtitle
+				.icon.contacto
+				%p LENTES DE CONTACTO
+			.left
+				%h2 Ojo Izquierdo
+				.field
+					%p -0.05
+					%span Esfera
+		
+				.field
+					%p 0
+					%span Cilindro
+		
+				.field
+					%p 0
+					%span Eje
+			.right
+				%h2 Ojo Derecho
+				.field
+					%p -0.05
+					%span Esfera
+		
+				.field
+					%p 0
+					%span Cilindro
+		
+				.field
+					%p 0
+					%span Eje
+		.divisor
+		.graduacion_section.supercenter
+			.subtitle
+				.icon.gafas
+				%p GAFAS
+			.left
+				%h2 Ojo Izquierdo
+				.field
+					%p -0.05
+					%span Esfera
+		
+				.field
+					%p 0
+					%span Cilindro
+		
+				.field
+					%p 0
+					%span Eje
+			.right
+				%h2 Ojo Derecho
+				.field
+					%p -0.05
+					%span Esfera
+
+				.field
+					%p 0
+					%span Cilindro
+
+				.field
+					%p 0
+					%span Eje
+	
+
+	#perfil_pago.tabcontent
+		.supercenter
+			.pago
+				%img{:src=>'images/perfil/visa.png'}
+				.numbers ************6888
+				.status.active PREDETERMINADA
+			.pago
+				%img{:src=>'images/perfil/paypal.png'}
+				.numbers almidonada@gmail.com
+				.status VOLVER PREDETERMINADA
+			.button.black AGREGAR
+
+	#perfil_wishlist.tabcontent
+		.photos
+			.photo
+				%img{:src=>'images/whislist/01.png'}
+				.text
+					%h2.light ALL SUMER
+					%p.bold $ 1,200
+				%a.button.blue{:href=>'/checkout'} COMPRAR
+			.photo
+				%img{:src=>'images/whislist/02.png'}
+				.text
+					%h2.light ALL OK
+					%p.bold $ 1,000
+				%a.button.blue{:href=>'/checkout'} COMPRAR
+			.photo
+				%img{:src=>'images/whislist/03.png'}
+				.text
+					%h2.light NOT SUMER
+					%p.bold $ 600
+				%a.button.blue{:href=>'/checkout'} COMPRAR
+			.photo
+				%img{:src=>'images/whislist/01.png'}
+				.text
+					%h2.light YES SUMER
+					%p.bold $ 800
+				%a.button.blue{:href=>'/checkout'} COMPRAR
+			.photo
+				%img{:src=>'images/whislist/02.png'}
+				.text
+					%h2.light ALL SUMER
+					%p.bold $ 1,200
+				%a.button.blue{:href=>'/checkout'} COMPRAR
+		.alert
+			%img{:src=>'images/perfil/mini.png'}
+			%p
+				%span ¿No te decides?
+				Comparte tu wishlist para que 
+				%br
+				tus amigos voten por los que te van mejor.
+			.button.white.rectangle bitly.com/1234
+			.button.gray COPIAR
+
+	#perfil_comprados.products.tabcontent
+		.gridcontent
+			%a.grid.producto3{:href=>'/lentes_contacto'}
+				.date Fecha de compra 30/01/2016
+				.img
+				.text
+					%h2 ACCUVE OASIS
+					%p $ 618
+			%a.grid.producto1{:href=>'/producto'}
+				.date Fecha de compra 30/01/2016
+				.img
+				.text
+					%h2 MEOW
+					%p $ 1,200
+			%a.grid.producto2{:href=>'/producto'}
+				.date Fecha de compra 30/01/2016
+				.img
+				.text
+					%h2 EYE OF THE TIGER
+					%p $ 1,600
+
+
+
+				

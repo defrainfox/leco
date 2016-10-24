@@ -1,0 +1,315 @@
+#perfil_header {
+  width: 100%;
+  height: 438px;
+  background: #3297F7;
+  margin-top: 71px;
+  padding-top: 40px; }
+  #perfil_header ul {
+    text-align: center;
+    margin-top: 60px; }
+    #perfil_header ul .superheader {
+      text-align: left;
+      padding-bottom: 20px; }
+      #perfil_header ul .superheader * {
+        display: inline-block;
+        vertical-align: top; }
+    #perfil_header ul .circle {
+      width: 46px;
+      height: 46px;
+      background: url(../images/perfil/circle.png) center no-repeat; }
+    #perfil_header ul h1 {
+      text-align: left;
+      font-size: 30px;
+      padding-bottom: 40px;
+      margin: 8px 0 0 10px; }
+    #perfil_header ul li {
+      text-align: left;
+      float: left;
+      width: 33.3%; }
+      #perfil_header ul li .header * {
+        margin-left: 20px; }
+      #perfil_header ul li .header .icon {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        margin-left: 0; }
+      #perfil_header ul li .header h2 {
+        display: inline-block;
+        font-size: 14px;
+        margin: 0 0 30px 0;
+        color: #000; }
+      #perfil_header ul li .header p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        font-weight: 200;
+        color: #FFF; }
+      #perfil_header ul li .header .button {
+        margin-top: 30px; }
+      #perfil_header ul li .datos .icon {
+        background: url(../images/perfil/01.png) center no-repeat; }
+      #perfil_header ul li .direccion .icon {
+        background: url(../images/perfil/02.png) center no-repeat; }
+
+#tabs {
+  overflow: hidden; }
+  #tabs .tab {
+    float: left;
+    width: 25%;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 1px solid #EDEDED;
+    background: #E5EFF8;
+    cursor: pointer;
+    font-size: 14px; }
+    #tabs .tab.active {
+      background: #FFF; }
+
+.tabcontent {
+  padding: 80px 0;
+  background: #FFF;
+  display: none; }
+  .tabcontent.active {
+    display: block; }
+
+#perfil_graduacion {
+  padding-bottom: 80px; }
+  #perfil_graduacion .title {
+    width: 100%;
+    overflow: hidden;
+    margin: 40px 0 40px 40px; }
+    #perfil_graduacion .title p {
+      opacity: 0.5;
+      float: left;
+      font-size: 18px;
+      font-weight: 200;
+      margin-right: 20px; }
+    #perfil_graduacion .title .line {
+      overflow: hidden;
+      height: 1px;
+      background: #F4F4F4;
+      margin-top: 8px; }
+  #perfil_graduacion .graduacion_section .subtitle {
+    margin-bottom: 40px; }
+    #perfil_graduacion .graduacion_section .subtitle * {
+      display: inline-block; }
+    #perfil_graduacion .graduacion_section .subtitle .icon {
+      width: 24px;
+      height: 10px; }
+      #perfil_graduacion .graduacion_section .subtitle .icon.contacto {
+        background: url(../images/perfil/03.png) center no-repeat; }
+      #perfil_graduacion .graduacion_section .subtitle .icon.gafas {
+        background: url(../images/perfil/04.png) center no-repeat; }
+    #perfil_graduacion .graduacion_section .subtitle p {
+      font-size: 14px; }
+  #perfil_graduacion .graduacion_section .left, #perfil_graduacion .graduacion_section .right {
+    display: inline-block;
+    margin-left: 44px;
+    width: 500px; }
+    #perfil_graduacion .graduacion_section .left h2, #perfil_graduacion .graduacion_section .right h2 {
+      font-size: 25px;
+      margin-bottom: 40px; }
+    #perfil_graduacion .graduacion_section .left .field, #perfil_graduacion .graduacion_section .right .field {
+      display: inline-block;
+      width: 128px; }
+      #perfil_graduacion .graduacion_section .left .field p, #perfil_graduacion .graduacion_section .right .field p {
+        width: 100px;
+        text-align: center;
+        font-size: 25px;
+        padding: 10px 4px;
+        background: #F6F6F6;
+        display: inline-block;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        border: 1px solid #E3E3E3; }
+      #perfil_graduacion .graduacion_section .left .field span, #perfil_graduacion .graduacion_section .right .field span {
+        width: 108px;
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        opacity: 0.5; }
+  #perfil_graduacion .divisor {
+    width: 100%;
+    height: 1px;
+    background: #EDEDED;
+    margin: 40px 0; }
+
+.tabcontent .title {
+  width: 100%;
+  overflow: hidden;
+  margin: 40px 0 40px 40px; }
+  .tabcontent .title p {
+    opacity: 0.5;
+    float: left;
+    font-size: 18px;
+    font-weight: 200;
+    margin-right: 20px; }
+  .tabcontent .title .line {
+    overflow: hidden;
+    height: 1px;
+    background: #F4F4F4;
+    margin-top: 8px; }
+
+#perfil_pago {
+  padding: 120px 0 160px; }
+  #perfil_pago .title {
+    width: 100%;
+    overflow: hidden;
+    margin: 40px 0 40px 40px; }
+    #perfil_pago .title p {
+      opacity: 0.5;
+      float: left;
+      font-size: 18px;
+      font-weight: 200;
+      margin-right: 20px; }
+    #perfil_pago .title .line {
+      overflow: hidden;
+      height: 1px;
+      background: #F4F4F4;
+      margin-top: 8px; }
+  #perfil_pago .pago {
+    margin: 0 0 40px 20px; }
+    #perfil_pago .pago * {
+      display: inline-block;
+      margin-right: 20px;
+      vertical-align: top; }
+    #perfil_pago .pago .numbers {
+      width: 300px;
+      font-size: 24px; }
+    #perfil_pago .pago .status {
+      cursor: pointer;
+      font-size: 13px;
+      color: #B9B9B9; }
+      #perfil_pago .pago .status.active {
+        color: #6AB1DB; }
+
+#perfil_wishlist .photos {
+  padding-bottom: 60px;
+  text-align: center; }
+  #perfil_wishlist .photos .photo {
+    display: inline-block;
+    margin: 0 30px;
+    text-align: left; }
+    #perfil_wishlist .photos .photo img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      border: 1px solid #EDEDED; }
+    #perfil_wishlist .photos .photo .text {
+      overflow: hidden;
+      border: 1px solid #EDEDED; }
+      #perfil_wishlist .photos .photo .text h2 {
+        float: left;
+        padding: 10px 10px;
+        font-size: 12px; }
+      #perfil_wishlist .photos .photo .text p {
+        float: right;
+        padding: 10px 10px;
+        font-size: 12px;
+        border-left: 1px solid #EDEDED; }
+    #perfil_wishlist .photos .photo .button {
+      margin-top: 22px; }
+#perfil_wishlist .alert {
+  text-align: center;
+  padding: 40px 0;
+  background: #FBFBFB;
+  border-top: 1px solid #EDEDED; }
+  #perfil_wishlist .alert * {
+    display: inline-block;
+    vertical-align: middle; }
+  #perfil_wishlist .alert img {
+    margin-right: 20px; }
+  #perfil_wishlist .alert p {
+    text-align: left;
+    margin-right: 40px;
+    line-height: 24px;
+    font-weight: 200; }
+    #perfil_wishlist .alert p span {
+      color: #000;
+      font-weight: 400; }
+  #perfil_wishlist .alert .white {
+    border: 1px solid #000;
+    margin-right: 10px; }
+  #perfil_wishlist .alert .gray {
+    background: #C9CCCB;
+    color: #000; }
+
+#perfil_comprados {
+  padding-bottom: 60px;
+  overflow: hidden; }
+  #perfil_comprados .gridcontent {
+    border-top: 1px solid #EDEDED; }
+    #perfil_comprados .gridcontent .date {
+      position: absolute;
+      color: #3297F7;
+      top: 20px;
+      left: 20px;
+      font-size: 14px; }
+  #perfil_comprados .box {
+    background: #FFF;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-bottom: 1px solid #E5E4E3;
+    border-left: 1px solid #E5E4E3;
+    border-right: 1px solid #E5E4E3; }
+    #perfil_comprados .box:nth-child(1) {
+      border-top: 1px solid #E5E4E3; }
+    #perfil_comprados .box .minibox {
+      padding: 40px 0;
+      float: left;
+      width: 400px;
+      height: 100%;
+      font-size: 14px;
+      font-weight: 500;
+      overflow: hidden; }
+      #perfil_comprados .box .minibox h2 {
+        margin-left: 20px; }
+    #perfil_comprados .box .separator {
+      float: left;
+      width: 1px;
+      height: 266px;
+      margin-top: 16px;
+      background: #EDEDED; }
+    #perfil_comprados .box .boxproduct h2 {
+      margin-bottom: 20px;
+      line-height: 18px; }
+    #perfil_comprados .box .boxproduct img {
+      display: block;
+      width: 160px;
+      margin: 0 auto; }
+    #perfil_comprados .box .boxgraduacion {
+      width: 500px;
+      text-align: left; }
+      #perfil_comprados .box .boxgraduacion h3 {
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 200;
+        opacity: 0.5; }
+      #perfil_comprados .box .boxgraduacion .graduation {
+        float: left;
+        margin: 20px 20px 40px 20px;
+        text-align: center; }
+        #perfil_comprados .box .boxgraduacion .graduation p {
+          font-size: 25px;
+          font-weight: 500;
+          opacity: 0.4; }
+        #perfil_comprados .box .boxgraduacion .graduation .line {
+          margin: 10px auto 4px;
+          width: 40px;
+          height: 1px;
+          background: #EDEDED; }
+        #perfil_comprados .box .boxgraduacion .graduation span {
+          font-size: 11px;
+          opacity: 0.5; }
+    #perfil_comprados .box .boxprice {
+      width: 254px;
+      height: 210px;
+      background: #FAFAFA;
+      margin: 6px 0; }
+      #perfil_comprados .box .boxprice p {
+        text-align: center;
+        margin-top: 90px;
+        font-size: 30px;
+        opacity: 0.4; }
+
+/*# sourceMappingURL=perfil.css.map */

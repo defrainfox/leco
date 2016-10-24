@@ -1,0 +1,134 @@
+= partial("includes/header")
+
+%body
+	= partial("includes/menu")
+	= partial("includes/asesor")
+	#content
+		%a#super{:href=>'/producto'}
+			.slider#slider01
+		%ul#supermenu
+			%a{:href=>'/gafas'}
+				%li.first.light
+					.cover
+					GAFAS
+			%a{:href=>'/leco'}
+				%li.second.light
+					.cover
+					LENTES DE CONTACTO
+
+		.gridcontent
+			%a.grid.producto3{:href=>'/lentes_contacto'}
+				.img
+				.text
+					%h2.light ACCUVE OASIS
+					%p.light $ 618
+			%a.grid.producto1{:href=>'/producto'}
+				.img
+				.text
+					%h2 MEOW
+					%p $ 1,200
+			%a.grid.producto2{:href=>'/producto'}
+				.img
+				.text
+					%h2 EYE OF THE TIGER
+					%p $ 1,600
+			%a.grid.producto1{:href=>'/producto'}
+				.img
+				.text
+					%h2 BLACK IN BLACK
+					%p $ 900
+			%a.grid.producto3{:href=>'/producto'}
+				.img
+				.text
+					%h2 TAINTED LOVE
+					%p $ 1,200
+			%a.grid.producto2{:href=>'/producto'}
+				.img
+				.text
+					%h2 ALL SUMMER
+					%p $ 1,600
+			%a.grid.producto3{:href=>'/producto'}
+				.img
+				.text
+					%h2 CARAMEL
+					%p $ 1,200
+			%a.grid.producto1{:href=>'/producto'}
+				.img
+				.text
+					%h2 THE YOUTH
+					%p $ 1,600
+			%a.grid.producto2{:href=>'/producto'}
+				.img
+				.text
+					%h2 GOOD OLD DAYS
+					%p $ 900
+			.moreitems
+				%a.grid.producto3{:href=>'/lentes_contacto'}
+					.img
+					.text
+						%h2 ACCUVE OASIS
+						%p $ 618
+				%a.grid.producto1{:href=>'/producto'}
+					.img
+					.text
+						%h2 MEOW
+						%p $ 1,200
+				%a.grid.producto2{:href=>'/producto'}
+					.img
+					.text
+						%h2 EYE OF THE TIGER
+						%p $ 1,600
+				%a.grid.producto3{:href=>'/producto'}
+					.img
+					.text
+						%h2 TAINTED LOVE
+						%p $ 1,200
+				%a.grid.producto1{:href=>'/producto'}
+					.img
+					.text
+						%h2 BLACK IN BLACK
+						%p $ 900
+				%a.grid.producto2{:href=>'/producto'}
+					.img
+					.text
+						%h2 ALL SUMMER
+						%p $ 1,600
+				%a.grid.producto3{:href=>'/producto'}
+					.img
+					.text
+						%h2 CARAMEL
+						%p $ 1,200
+				%a.grid.producto1{:href=>'/producto'}
+					.img
+					.text
+						%h2 THE YOUTH
+						%p $ 1,600
+				%a.grid.producto2{:href=>'/producto'}
+					.img
+					.text
+						%h2 GOOD OLD DAYS
+						%p $ 900
+		#moreitems.showmore VER MÁS
+
+		.banner.blue
+			.supercenter
+				.text
+					%h3.light EXAMEN A DOMICILIO
+					%p ¿Conoces tu graduación exacta? 
+					%p Dinos cuándo y dónde e iremos hasta ti para
+					%p hacerte un examen de la vista.
+					%a.button.black{:href=>'/examen'} AGENDA TU EXAMEN
+				.cover.doctor
+
+		.banner.gray
+			.supercenter
+				.text
+					%h3.light MISMOS LENTES, MICAS NUEVAS
+					%p Vuelve a la vida tus armazones favoritos.
+					%p Pasamos por ellos y te los devolvemos
+					%p graduados en 24 horas.
+					%a.button.black{:href=>'/micas'} VER MÁS
+				.cover.micas
+		= partial("includes/footer")
+
+

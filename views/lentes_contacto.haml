@@ -1,0 +1,146 @@
+= partial("includes/header")
+
+%body
+	= partial("includes/menu_contacto")
+	= partial("includes/asesor")
+	#content
+		#lentes_contacto
+			.supercenter
+				%img{:src=>'images/lentes_contacto/01.png'}
+				.text
+					%h2 ACCUVE OASIS
+					%p.description 
+						Lentes comodos y de larga duración elige los
+						%br
+						que se ajusten a tus necesidades.
+					.type
+						%h3
+							Esféricos
+							%br
+							Miopía o hipermetropía
+						.price.bold 
+							$ 618
+							%span C/U
+					.separator
+					.type
+						%h3
+							Tóricos y Miopía
+							%br
+							Hipermetropía y astigmatismo
+						.price.bold 
+							$ 824
+							%span C/U
+						
+				.extras
+					.prescripcion
+						%h2 TU PRESCRIPCIÓN
+						.select
+							%p Ojo derecho
+							.field
+								%select
+									%option -0.05
+									%option -0.06
+									%option -0.07
+									%option -0.08
+								%span Esfera
+							.field
+								%select
+									%option -0.05
+									%option -0.06
+									%option -0.07
+									%option -0.08
+								%span Cilindro
+							.field
+								%select
+									%option -0.05
+									%option -0.06
+									%option -0.07
+									%option -0.08
+								%span Eje
+						.select
+							%p Ojo izquierdo
+							.field
+								%select
+									%option -0.05
+									%option -0.06
+									%option -0.07
+									%option -0.08
+								%span Esfera
+							.field
+								%select
+									%option -0.05
+									%option -0.06
+									%option -0.07
+									%option -0.08
+								%span Cilindro
+							.field
+								%select
+									%option -0.05
+									%option -0.06
+									%option -0.07
+									%option -0.08
+								%span Eje
+					.total
+						%p
+							TOTAL
+							%span.bold $ 1,236 
+						%a.button.blue{:href=>'/checkout'} COMPRAR
+								
+
+
+
+		#how
+			.how
+				%img{:src=>'images/lentes_contacto/02.png'}
+				%p 
+					Habla con tu asesor
+					%br
+					para cualquier duda.
+			.how
+				%img{:src=>'images/lentes_contacto/03.png'}
+				%p 
+					Recibe tus nuevos lentes de
+					%br
+					contacto en 24 horas.
+			.how
+				%img{:src=>'images/lentes_contacto/04.png'}
+				%p 
+					Más barato que
+					%br
+					en tu óptica.
+		.banner.blue
+			.supercenter
+				.text
+					%h3.light 
+						¿NO CONOCES TU GRADUACIÓN?
+					%p Si tienes dudas, sientes que no ves bien o no 
+					%p recuerdas hace cuánto fue tu último examen, 
+					%p es probable que necesites uno. 
+					%a.button.black{:href=>'/examen'} AGENDA TU EXAMEN
+				.cover.doctor
+
+		.section.grid
+			.title
+				%p MÁS QUE VER
+				.line
+			.gridcontent
+				%a.grid.producto3{:href=>'/lentes_contacto'}
+					.img
+					.text
+						%h2 ARMY OF ME
+						%p $900
+				%a.grid.producto1{:href=>'/producto'}
+					.img
+					.text
+						%h2 MEOW
+						%p $1,200
+				%a.grid.producto2{:href=>'/producto'}
+					.img
+					.text
+						%h2 EYE OF THE TIGER
+						%p $1,600
+
+		= partial("includes/footer")
+
+
+

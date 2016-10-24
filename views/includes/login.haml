@@ -1,0 +1,32 @@
+#alerta.login
+	#alerta_controls
+		%a#alerta_close{:href=>'/producto'}
+	#login
+		%img{:src=>'images/login/logo.png'}
+		%p Necesitamos algunos de tus datos para atenderte mejor, sólo tendrás que hacerlo esta vez.
+		.field
+			%span NOMBRE
+			%input{:type=>'text'}
+		.field
+			%span CORREO
+			%input{:type=>'text'}
+		.field
+			%span CELULAR
+			%input{:type=>'text'}
+			.tip Recibirás atención personalizada 24/7 por Whatsapp
+		.field
+			%span CONTRASEÑA
+			%input{:type=>'text'}
+		#checks
+			.check
+				.icon
+				%span Doy permiso a LECO para que me contacte por WhattsApp
+			.check
+				.icon
+				%span
+					He leido y acepto los
+					%a{:href=>''} Términos y Condiciones
+		%a.button.black{:href=>'/checkout'} CONTINUAR
+		.redalert Asegurate de llenar todos los campos
+
+		

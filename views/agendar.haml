@@ -1,0 +1,65 @@
+= partial("includes/header")
+
+%body
+	= partial("includes/menu_perfil")
+	= partial("includes/asesor")
+	#content.coloragenda
+		#agenda							
+			#brigadatitle.agenda
+				%h1 EXAMEN
+				%img{:src=>'images/agenda/brigada.png'}
+				%h3 1 de cada 2 mexicanos no ve bien
+				%p
+					Agenda el día de tu examen y un 
+					%br
+					profesional de leco te visitará para un
+					%br
+					examen de la vista
+			#brigadacontent.agenda
+				.icon
+				%h2 INGRESA TUS DATOS Y UN ASESOR TE CONTACTARÁ
+				%form
+					.field
+						%span DIRECCIÓN
+						%input{:type=>'text'}
+					.field
+						%span FECHAS DISPONIBLES
+						.dates
+							.date
+								OCTUBRE
+								%span 12
+								Miércoles
+							.date
+								OCTUBRE
+								%span 13
+								Jueves
+							.date
+								OCTUBRE
+								%span 14
+								Viernes
+							.date
+								OCTUBRE
+								%span 17
+								Lunes
+							.date
+								OCTUBRE
+								%span 18
+								Martes
+							.date
+								OCTUBRE
+								%span 19
+								Miércoles
+					.field
+						.times
+							.time
+								Mañana
+								%span 9-12 am
+							.time
+								Tarde
+								%span 1-5 am
+					
+					%a.button.blue{:href=>'/checkout'} SOLICITAR EXAMEN
+					%p *Las visitas son de lunes a viernes, entre 09:00 y 18:00 horas.
+
+
+

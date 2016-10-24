@@ -1,0 +1,120 @@
+#lentes_contacto {
+  padding: 71px 0 70px;
+  overflow: hidden; }
+  #lentes_contacto img {
+    float: left;
+    margin: 40px 100px 0 0; }
+  #lentes_contacto .text {
+    float: left;
+    width: 540px;
+    text-align: center; }
+    #lentes_contacto .text h2 {
+      text-align: left;
+      font-size: 50px; }
+    #lentes_contacto .text .description {
+      text-align: left;
+      font-size: 18px;
+      margin: 6px 0 60px; }
+    #lentes_contacto .text .type, #lentes_contacto .text .separator {
+      display: inline-block;
+      vertical-align: top; }
+    #lentes_contacto .text .separator {
+      width: 1px;
+      height: 120px;
+      background: #979797;
+      opacity: 0.2;
+      margin: 0 40px; }
+    #lentes_contacto .text .type {
+      text-align: left; }
+      #lentes_contacto .text .type h3 {
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        line-height: 20px; }
+      #lentes_contacto .text .type .price {
+        font-size: 30px;
+        margin-bottom: 30px; }
+        #lentes_contacto .text .type .price span {
+          font-size: 18px;
+          font-family: "Dosis", sans-serif;
+          font-weight: 200; }
+      #lentes_contacto .text .type .selector {
+        margin-bottom: 14px; }
+        #lentes_contacto .text .type .selector * {
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 18px;
+          font-weight: 200; }
+        #lentes_contacto .text .type .selector .icon {
+          cursor: pointer;
+          width: 25px;
+          height: 25px;
+          background: url(../images/lentes_contacto/uncheck.png) center no-repeat;
+          margin-right: 10px; }
+          #lentes_contacto .text .type .selector .icon.check {
+            background: url(../images/lentes_contacto/check.png) center no-repeat; }
+  #lentes_contacto .extras {
+    float: left;
+    width: 100%;
+    text-align: center; }
+    #lentes_contacto .extras * {
+      display: inline-block; }
+    #lentes_contacto .extras .prescripcion {
+      margin: 40px;
+      width: 415px; }
+      #lentes_contacto .extras .prescripcion h2 {
+        font-size: 16px;
+        opacity: 0.5;
+        margin-bottom: 20px; }
+      #lentes_contacto .extras .prescripcion .select {
+        text-align: left; }
+        #lentes_contacto .extras .prescripcion .select * {
+          display: inline-block;
+          vertical-align: top; }
+        #lentes_contacto .extras .prescripcion .select p {
+          width: 100px;
+          font-size: 14px;
+          margin-top: 5px; }
+        #lentes_contacto .extras .prescripcion .select .field {
+          margin: 0 10px 20px; }
+          #lentes_contacto .extras .prescripcion .select .field span {
+            display: block;
+            text-align: center;
+            font-size: 11px;
+            opacity: 0.5;
+            margin-top: 10px; }
+          #lentes_contacto .extras .prescripcion .select .field select {
+            background: transparent;
+            width: 80px;
+            border: 1px solid #C9CCCB;
+            font-size: 17px; }
+    #lentes_contacto .extras .total {
+      margin-top: 60px; }
+      #lentes_contacto .extras .total * {
+        display: inline-block;
+        vertical-align: middle; }
+      #lentes_contacto .extras .total p {
+        font-size: 18px;
+        font-weight: 200; }
+        #lentes_contacto .extras .total p span {
+          font-size: 40px;
+          margin: 0 20px; }
+
+#how {
+  padding: 20px 0 120px;
+  text-align: center; }
+  #how .how {
+    display: inline-block; }
+    #how .how * {
+      display: inline-block;
+      vertical-align: bottom;
+      font-size: 18px;
+      font-weight: 200;
+      text-align: left;
+      line-height: 20px; }
+    #how .how img {
+      margin-right: 20px; }
+    #how .how:nth-child(2) {
+      margin: 0 80px; }
+
+/*# sourceMappingURL=lentes_contacto.css.map */
